@@ -2,5 +2,5 @@
 x = int(input("Enter your num: "))
 while x % 2 == 0:
     print("U lose!")
-    x = int(input("Enter ypur num:"))
+    x = int(input("Enter your num:"))
 print("U win!")
