@@ -15,8 +15,7 @@ class Flight():
 flight = Flight(2)
 people = ["Bekdaulet", "Yernazar","Dimash", "Marat"]
 for person in people:
-    success = flight.add_pass(person)
-    if success:
+    if     flight.add_pass(person):
         print(f"Successfuly added {person}!")
     else:
         print(f"No available seats for {person} =(")
